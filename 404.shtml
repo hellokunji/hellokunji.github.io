@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>File Not Found</title>
+        <link rel="shortcut icon" href="/public/img/favicon.ico"/>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--custum styles and scripts -->
+        <link rel="stylesheet" type="text/css" href="/public/css/common.css">
+        <link rel="stylesheet" type="text/css" href="/public/css/404.css">
+    </head>
+    <body>
+        <header id="header">
+            <div class="header_main">
+                <div class="personal_logo">
+                    <a href="/">
+                        <div class="_bold">Kunji</div>
+                        <div class="_text">Meena</div>
+                    </a>
+                </div>
+                <div class="hm_menu">
+                    <a href="/">Home</a>
+                    <a href="/portfolio">Portfolio</a>
+                    <a href="/services">Services</a>
+                    <a class="hml_active" href="/about">About</a>
+                    <a href="/blog">Blog</a>
+                    <a href="/contact">Contact</a>
+                </div>
+                <button id="ham_menu" class="header_menu">
+                    <span id="hm_bit1" class="bit_regular bit_regular1"></span>
+                    <span id="hm_bit2" class="bit_regular bit_regular2"></span>
+                    <span id="hm_bit3" class="bit_regular bit_regular3"></span>
+                </button>
+            </div>
+        </header>
+        <div class="not_found">
+            <div class="nf_b">
+                <div class="nf_bt">
+                    <h1>Error 404</h1>
+                    <h3>Page Not Found</h3>
+                </div>
+                <div class="nf_bd">
+                    <div class="nf_bd_b">
+                        <h5>Here's What Can Help You</h5>
+                        <a href="/">Home</a>
+                        <a href="/portfolio">Portfolio</a>
+                        <a href="/services">Services</a>
+                        <a href="/blog">Blog</a>
+                    </div>
+                </div>
+                <img id="_e_i" class="_e_image" src="/public/img/broke.png" alt=""/>
+            </div>
+        </div>
+        <script src="/public/thirdparty/jquery-1.11.3.min.js"></script>
+        <script>
+            $("header").addClass("header_404");
+            $("#_e_i").delay(820).fadeIn(100);
+
+            $("#ham_menu").click(function(){
+                $("#ham_menu").toggleClass("ham_menu_active");
+                $("body").toggleClass("no_scroll");
+                $(".hm_menu").slideToggle(200);
+                $(".hm_menu a").toggleClass("hm_menu_a_show");
+            });
+        </script>
+    </body>
+</html>

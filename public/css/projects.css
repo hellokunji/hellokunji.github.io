@@ -1,0 +1,42 @@
+.projects {
+    margin-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: -webkit-box;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+._prm {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+._prm_item {
+    height: 230px;
+    width: 33%;
+    padding: 10px;
+}
+
+._prm_item > ._box {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+/*MEDIA QUERIES---------------*/
+/*MEDIA QUERIES---------------*/
+/*MEDIA QUERIES---------------*/
+@media only screen and (min-width: 100px) {
+    .projects {
+        padding-top: 25px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .projects {
+        padding-top: 50px;
+    }
+}

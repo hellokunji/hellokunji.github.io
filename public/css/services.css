@@ -1,0 +1,53 @@
+.services {
+    margin-top: 80px;
+    padding: 50px 20px;
+}
+
+._sm {
+    max-width: 1100px;
+    margin: auto;
+}
+
+._sm_b {
+    max-width: 600px;
+}
+
+._sm_item {
+
+}
+
+._smi_tag {
+
+}
+
+._smi_tag > h1 {
+    margin-bottom: 15px;
+}
+
+._smi_tag > p {
+    font-size: 18px;
+}
+
+._smi_tag > p:first-child {
+
+}
+
+._smi_tag > p:last-child {
+    margin-top: 5px;
+}
+
+._smi_ser {
+    margin: 45px 0;
+}
+
+._smi_ser > h2 {
+    margin-bottom: 10px;
+}
+
+._smi_ser > p {
+
+}
+
+._smi_ser > a {
+    margin-top: 15px;
+}

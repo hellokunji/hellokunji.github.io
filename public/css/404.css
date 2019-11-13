@@ -1,0 +1,240 @@
+header {
+    transform: rotate(0deg);
+    transform-origin: top right;
+    transition-duration: .05s;
+    transition-timing-function: cubic-bezier(0.91, 0.19, 0.95, 0.78);
+}
+
+.header_404 {
+    transition-duration: .7s;
+    transition-timing-function: cubic-bezier(0.91, 0.19, 0.95, 0.78);
+    transform: rotate(-20deg);
+}
+
+.not_found {
+    height: 617px;
+    margin: auto;
+    margin-top: 100px;
+/ / max-width: 1160 px;
+/ / padding: 0 20 px;
+}
+
+.nf_b {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    position: relative;
+}
+
+.nf_bt {
+    height: 50%;
+}
+
+.nf_bt h1 {
+    color: rgba(24, 155, 215, 0.4);
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: OpenSansBold;
+    line-height: 62px;
+}
+
+.nf_bt h3 {
+    color: rgba(24, 155, 215, 0.4);
+    font-size: 36px;
+    font-family: OpenSansRegular;
+}
+
+.nf_bd {
+    height: 50%;
+}
+
+.nf_bd_b {
+    max-width: 240px;
+    float: right;
+}
+
+.nf_bd_b h5 {
+    font-size: 16px;
+    color: rgba(24, 155, 215, 0.7);
+    float: right;
+    font-family: OpenSansBold;
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    height: 30px;
+}
+
+.nf_bd_b button {
+    display: block;
+    width: 205px;
+    float: right;
+    background: none;
+    border: none;
+    padding: 0;
+    text-align: right;
+    height: 30px;
+    color: #ee35b3;
+    font-family: OpenSansBold;
+}
+
+.nf_bd_b a {
+    display: block;
+    width: 205px;
+    float: right;
+    height: 30px;
+    text-decoration: none;
+    padding: 4px 0;
+    text-align: right;
+    color: #0D5A7B;
+    font-family: OpenSansBold;
+}
+
+._e_image {
+    position: absolute;
+    top: 398px;
+    left: -84px;
+    display: none;
+}
+
+@media only screen and (min-width: 200px) {
+    ._e_image {
+        top: 192px;
+        left: 8px;
+    }
+
+    .header_404 {
+        transition-duration: .7s;
+        transform: rotate(-45deg);
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    ._e_image {
+        top: 192px;
+        left: 8px;
+    }
+
+    .header_404 {
+        transition-duration: .7s;
+        transform: rotate(-39.5deg);
+    }
+}
+
+@media only screen and (min-width: 460px) {
+    ._e_image {
+        top: 192px;
+        left: 8px;
+    }
+
+    .header_404 {
+        transition-duration: .7s;
+        transform: rotate(-39.5deg);
+    }
+}
+
+@media only screen and (min-width: 568px) {
+    ._e_image {
+        top: 157px;
+        left: -84px;
+    }
+
+    .header_404 {
+        transition-duration: .7s;
+        transform: rotate(-20deg);
+    }
+}
+
+@media only screen and (min-width: 630px) {
+    ._e_image {
+        top: 132px;
+        left: -84px;
+    }
+
+    .header_404 {
+        transition-duration: .7s;
+        transform: rotate(-20deg);
+    }
+}
+
+@media only screen and (min-width: 667px) {
+    ._e_image {
+        top: 164px;
+        left: -69px;
+    }
+
+    .header_404 {
+        transition-duration: .7s;
+        transform: rotate(-20deg);
+    }
+}
+
+@media only screen and (min-width: 730px) {
+    ._e_image {
+        top: 186px;
+        left: -69px;
+    }
+
+    .header_404 {
+        transition-duration: .7s;
+        transform: rotate(-20deg);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    ._e_image {
+        top: 340px;
+        left: -12px;
+    }
+
+    .header_404 {
+        transition-duration: .7s;
+        transform: rotate(-32deg);
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    ._e_image {
+        top: 288px;
+        left: -88px;
+    }
+
+    .header_404 {
+        transition-duration: .7s;
+        transform: rotate(-20deg);
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    ._e_image {
+        top: 369px;
+        left: -84px;
+    }
+
+    .header_404 {
+        transition-duration: .7s;
+        transform: rotate(-20deg);
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    ._e_image {
+        top: 398px;
+        left: -84px;
+    }
+
+    .header_404 {
+        transition-duration: .7s;
+        transform: rotate(-20deg);
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    ._e_image {
+        top: 425px;
+        left: -83px;
+    }
+
+    .header_404 {
+        transition-duration: .7s;
+        transform: rotate(-20deg);
+    }
+}
