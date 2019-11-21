@@ -110,20 +110,24 @@
             </div>
             <div class="_cm_form">
                 <p class="cmn_h2">SEND ME AN EMAIL</p>
-                <form onsubmit="validateForm()" method="POST">
+
+                <form
+                    action="https://formspree.io/xleekovn"
+                    method="POST"
+                    >
                     <div class="_cmf_item">
                         <label>Your Name*</label>
-                        <input id="cbr_name" type="text"/>
+                        <input id="cbr_name" type="text" name="contact_name"/>
                         <p id="val_cbr_name" class="val_cbr">Hire me as a freelance web designer</p>
                     </div>
                     <div class="_cmf_item">
                         <label>Your Email Id*</label>
-                        <input id="cbr_email" type="email"/>
+                        <input id="cbr_email" type="email" name="contact_email"/>
                         <p id="val_cbr_email" class="val_cbr">Hire me as a freelance web developer</p>
                     </div>
                     <div class="_cmf_item">
                         <label>Your Phone Number</label>
-                        <input id="cbr_phone" type="email"/>
+                        <input id="cbr_phone" name="contact_phone"/>
                         <p id="val_cbr_phone" class="val_cbr">Hire me as a freelance web designer</p>
                     </div>
                     <div class="_cmf_item">
@@ -132,8 +136,7 @@
                         <p id="val_cbr_message" class="val_cbr">Hire me as a freelance web developer</p>
                     </div>
                     <div class="_cmf_btn">
-                        <button id="cbr_button" type="submit" class="cmn_btn" onclick="validateForm(event)">Send Email
-                        </button>
+                        <button id="cbr_button" type="submit" class="cmn_btn">Send Email</button>
                     </div>
                 </form>
             </div>
