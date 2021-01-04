@@ -85,15 +85,17 @@
 }
 
 .hlx_img {
-    display: block;
+    display: flex;
     width: 40%;
     float: left;
     height: 100%;
     overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .hlx_img img {
-    width: 388px;
+    width: 100%;
     float: right;
 }
 
